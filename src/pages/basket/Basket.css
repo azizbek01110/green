@@ -1,0 +1,32 @@
+
+.btnn{
+  width: 400px;
+  margin-left: 450px;
+  height: 40px;
+  background-color: rgb(22, 181, 181);
+  border: none;
+  position: relative;
+  width: 400px;
+  display: block;
+  margin-left: 700px;
+  bottom: 360px;
+  color: white;
+}
+.dis{
+  position: relative;
+}
+.uuu input{
+  position: relative;
+  width: 400px;
+  display: block;
+  margin-left: 700px;
+  bottom: 400px;
+  
+}
+.name{
+  position: relative;
+  width: 400px;
+  display: block;
+  margin-left: 700px;
+  bottom: 430px;
+}

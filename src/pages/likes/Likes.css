@@ -1,0 +1,245 @@
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.product-cart {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.product-cart img {
+  width: 200px;
+  height: 200px;
+}
+
+.product-cart-title {
+  font-size: 18px;
+}
+
+.product-cart {
+  position: relative;
+}
+
+.product-cart-icon-heart {
+  font-size: 24px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.product-cart-icon-shop {
+  position: absolute;
+  top: 290px;
+  right: 10px;
+}
+
+.product-cart-price {
+  position: absolute;
+  top: 290px;
+  left: 0px;
+}
+
+.product-cart-del {
+  position: absolute;
+  top: 270px;
+  left: 0;
+}
+
+.product-cart-icon-heart:active{
+  color: red;
+}
+
+@media (max-width: 350px) {
+  .product-wrapper {
+    line-height: 50px;
+  }
+  .product-cart {
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .product-cart img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .product-cart-icon-heart {
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .product-cart-icon-shop {
+    top: 150px;
+    right: 5px;
+  }
+
+  .product-cart-price {
+    top: 150px;
+    left: 5px;
+  }
+
+  .product-cart-del {
+    top: 130px;
+    left: 5px;
+  }
+
+  .product-cart-title {
+    font-size: 14px;
+  }
+
+  .product-cart-mark {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-cart {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .product-cart img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .product-cart-icon-heart {
+    font-size: 20px;
+    top: 8px;
+    right: 8px;
+  }
+
+  .product-cart-icon-shop {
+    top: 200px;
+    right: 8px;
+  }
+
+  .product-cart-price {
+    top: 200px;
+    left: 8px;
+  }
+
+  .product-cart-del {
+    top: 180px;
+    left: 8px;
+  }
+
+  .product-cart-title {
+    font-size: 16px;
+  }
+
+  .product-cart-mark {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-cart {
+    margin-top: 60px;
+    width: 130px;
+    height: 130px;
+    line-height: 20px;
+  }
+
+  .product-cart img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .product-cart-icon-heart {
+    font-size: 18px;
+    top: 6px;
+    right: 6px;
+  }
+
+  .product-cart-icon-shop {
+    top: 170px;
+    right: 6px;
+  }
+
+  .product-cart-price {
+    top: 170px;
+    left: 6px;
+  }
+
+  .product-cart-del {
+    top: 150px;
+    left: 6px;
+  }
+
+  .product-cart-title {
+    font-size: 15px;
+  }
+
+  .product-cart-mark {
+    font-size: 13px;
+  }
+}
+
+.product-cart-title {
+  font-size: 18px;
+  white-space: nowrap; /* Matnni bir qatorda saqlash */
+  overflow: hidden; /* Qator chegarasidan oshib ketgan matnni yashirish */
+  text-overflow: ellipsis; /* Matn kesilganda "..." qo'yish */
+}
+
+.product-cart-mark {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-cart-price {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.product-cart-del {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .product-cart-title {
+    font-size: 16px;
+  }
+
+  .product-cart-mark {
+    font-size: 12px;
+  }
+
+  .product-cart-price {
+    font-size: 14px;
+  }
+
+  .product-cart-del {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-cart-title {
+    font-size: 14px;
+  }
+
+  .product-cart-mark {
+    font-size: 10px;
+  }
+
+  .product-cart-price {
+    font-size: 12px;
+  }
+
+  .product-cart-del {
+    margin-top: -5px;
+    font-size: 9px;
+  }
+}
